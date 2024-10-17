@@ -1,4 +1,4 @@
-package Chapter1
+package Chapter1.lec01
 
 fun main () {
     // 가변 변수(발..)

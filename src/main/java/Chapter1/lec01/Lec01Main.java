@@ -1,7 +1,6 @@
-package Chapter1;
+package Chapter1.lec01;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Lec01Main {
