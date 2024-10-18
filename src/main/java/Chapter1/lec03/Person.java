@@ -1,10 +1,10 @@
-package Chapter1.lec02;
+package Chapter1.lec03;
 
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 public class Person {
 	String name;
+	int age;
 	Person(String name) {
 		this.name = name;
 	}
@@ -17,5 +17,9 @@ public class Person {
 	@NotNull
 	public String getName() {
 		return name;
+	}
+
+	public int getAge() {
+		return age;
 	}
 }
