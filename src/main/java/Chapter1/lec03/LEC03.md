@@ -1,6 +1,6 @@
 # Lec 03. 코틀린에서 Type을 다루는 방법
 
-## 1. 기본 타입
+## 📌 1. 기본 타입
 - Java : 기본 타입간의 변환은 `암시적으로` 이루어질 수 있다
 ```java
 int number1 = 4;
@@ -42,7 +42,7 @@ println(result)
     val number8: Long = number7?.toLong() ?: 0L
 ```
 
-## 2. 타입 캐스팅 - is, as
+## 📌 2. 타입 캐스팅 - is, as
 
 ![is.png](./images/is.png)
 
@@ -110,7 +110,7 @@ fun printAgeIfPerson2(obj: Any?) {
 }
 ```
 
-## 3. Kotiln의 특이한 타입 3가지
+## 📌 3. Kotiln의 특이한 타입 3가지
 
 ### Any
 
@@ -140,7 +140,7 @@ fun fail(message: String): Nothing {
 }
 ```
 
-## 4. String interpolation / String indexing
+## 📌 4. String interpolation / String indexing
 
 - String interpolation : 문자열 내부에 변수를 넣어서 출력하는 방법
 
@@ -165,10 +165,10 @@ val name = "Kotlin"
 println("이름 : $name")
 ```
 
-TIP : 변수 이름만 사용하더라도 `${변수}`를 사용하는 것이
-1) 가독성이 좋다
-2) 일괄 변경이 용이하다
-3) 정규식 활용 가능하다
+> TIP : 변수 이름만 사용하더라도 `${변수}`를 사용하는 것이
+> 1) 가독성이 좋다
+> 2) 일괄 변경이 용이하다
+> 3) 정규식 활용 가능하다
 
 여러 줄에 걸친 문자열을 작성해야 할때
 ```kotlin
@@ -193,7 +193,7 @@ val str = "Hello, Kotlin!"
 val c = str[7]
 ```
 
-## 정리
+## 📌 정리
 - 코틀린의 변수는 초기값을 보고 타입을 추론하며, 기본 타입들간의 변환은 명시적으로 이루어진다
 - 코틀린에서는 `is, !is, as, as?` 를 활용해서 타입을 확인하고 캐스팅한다
 - 코틀린의 Any는 Java의 Object와 같은 최상위 타입이다
