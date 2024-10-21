@@ -12,3 +12,4 @@
 - [5강. 코틀린에서 제어문을 다루는 방법](src/main/java/Chapter2/lec05/LEC05.md)
 - [6강. 코틀린에서 반복문을 다루는 방법](src/main/java/Chapter2/lec06/LEC06.md)
 - [7강. 코틀린에서 예외를 다루는 방법](src/main/java/Chapter2/lec07/LEC07.md)
+- [8강. 코틀린에서 함수를 다루는 방법](src/main/java/Chapter2/lec08/LEC08.md)
