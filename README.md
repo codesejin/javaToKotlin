@@ -16,3 +16,4 @@
 
 ## 섹션 4
 - [9강. 코틀린에서 클래스를 다루는 방법](src/main/java/Chapter3/lec09/LEC09.md)
+- [10강. 코틀린에서 상속을 다루는 방법](src/main/java/Chapter3/lec10/LEC10.md)
